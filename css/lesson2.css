@@ -13,7 +13,6 @@ header {
 .topics {
    display: grid;
    grid-template-columns: 1fr;
-   border: 1px solid rgb(255, 0, 0);
    padding: 0 1rem;
    column-gap: 1rem;
 }
@@ -38,7 +37,6 @@ header {
 
    .topics {
       grid-template-columns: 1fr 1fr;
-      border: 1px solid rgb(4, 0, 255);
    }
 
    section:nth-child(3) {
@@ -52,7 +50,6 @@ header {
 
    .topics {
       grid-template-columns: 1fr 1fr 1fr;
-      border: 1px solid rgb(0, 255, 85);
    }
 
    section:nth-child(3) {
