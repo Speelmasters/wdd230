@@ -120,6 +120,10 @@ footer {
    height: 200px;
    width: auto;
 }
+
+main {
+   margin-bottom: 50px;
+}
 /***********************************************/
 /** Media Queries for larger views *************/
 /***********************************************/
