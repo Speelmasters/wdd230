@@ -12,7 +12,7 @@ body {
 
 header,
 footer {
-	background-color: #708080;
+	background-color: #09AAB8;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -41,7 +41,7 @@ p {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #045344;
 	text-align: center;
 	box-shadow: 0 0 30px #333;
 }
@@ -49,6 +49,11 @@ nav {
 nav {
 	display: flex;
 	flex-direction: column;
+}
+
+.scheme {
+   width: 960px;
+   height: auto;
 }
 
 nav div {
@@ -66,16 +71,16 @@ nav a {
 
 nav a:hover {
 	background-color: #708080;
-	color: yellow;
+	color: #B6E3FC;
 }
 
-main {
+/* main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
-}
+} */
 
 main .submenu {
 	margin: 1rem;
@@ -104,6 +109,10 @@ footer {
 	font-weight: 700;
 }
 
+.logo {
+   height: 200px;
+   width: auto;
+}
 /***********************************************/
 /** Media Queries for larger views *************/
 /***********************************************/
