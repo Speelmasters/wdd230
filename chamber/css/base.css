@@ -108,7 +108,7 @@ header {
  
  /* Add a red background color to navbar links on hover */
  .navbar a:hover, .dropdown:hover .dropbtn {
-   background-color: red;
+   background-color: rgb(0, 125, 118);
  }
  
  /* Dropdown content (hidden by default) */
@@ -142,7 +142,15 @@ header {
  }
 
 footer {
-   
+   max-width: 900px;
+   position: fixed;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 0;
+   display: flex;
+   justify-content: space-between;
+   border: #bbb;
+   border-style: solid;
 }
 
 main {
@@ -188,4 +196,27 @@ section {
 .Spotlight {
    grid-column: 1;
    grid-row: 6-8;
+   display: grid;
+}
+
+.Spotlight div {
+   height: auto;
+   border: rgb(61, 60, 60) 1px;
+   margin: 5px;
+   border-style: solid;
+   padding: 5px;
+}
+
+.Spotlight1 {
+   grid-column: 1/2;
+   grid-row: 1/2;
+}
+
+.Spotlight2 {
+   grid-column: 1/2;
+   grid-row: 2/3;
+}
+
+.Spotlight3 {
+   display: none;
 }

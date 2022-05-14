@@ -55,6 +55,29 @@
    .Spotlight {
       grid-column: 1/4;
       grid-row: 3;
+      display: grid;
+   }
+
+   .Spotlight div {
+      height: auto;
+      border: rgb(61, 60, 60) 1px;
+      margin: 5px;
+      border-style: solid;
+      padding: 5px;
+   }
+
+   .Spotlight1 {
+      grid-column: 1/2;
+      grid-row: 1/3;
+   }
+
+   .Spotlight2 {
+      grid-column: 2/3;
+      grid-row: 1/3;
+   }
+
+   .Spotlight3 {
+      display: none;
    }
 
 }
