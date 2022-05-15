@@ -23,6 +23,35 @@
       padding: 5px;
    }
 
+   footer {
+      display: grid;
+      max-width: 900px;
+      margin-bottom: 10px;
+      bottom: 0;
+      width: 100%;
+      margin-top: 0px;
+      justify-content: space-between;
+      border: #bbb;
+      border-style: solid;
+   }
+   
+   .footerlogo {
+      grid-column: 1/2;
+      grid-row: 1;
+   }
+   
+   .footerinfo {
+      grid-column: 2/3;
+      grid-row: 1;
+   }
+   
+   .footerlegal {
+      grid-column: 1/3;
+      grid-row: 2;
+      display: flex;
+      justify-content: space-evenly;
+   
+   }
   
 
 
