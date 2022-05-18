@@ -38,6 +38,7 @@
       justify-content: space-between;
       border: #bbb;
       border-style: solid;
+      margin-top: -500px;
    }
    
    .footerlogo {
@@ -97,6 +98,7 @@
       margin: 5px;
       border-style: solid;
       padding: 5px;
+      /* background-color: #09AAB8; */
    }
    
    .Spotlight1 {
