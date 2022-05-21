@@ -10,7 +10,7 @@
    .dropdown-content {
       display: flex;
       position: relative;
-      background-color: rgb(0, 125, 118);
+      background-color: #09AAB8;
    }
 
    .dropdown:hover .dropdown-content {
@@ -28,17 +28,18 @@
    }
 
    footer {
-      display: grid;
+      /* display: grid; */
       max-width: 900px;
       position: fixed;
       left: 50%;
       transform: translateX(-50%);
-      bottom: 0;
+      bottom: 100;
       width: 100%;
       justify-content: space-between;
-      border: #bbb;
-      border-style: solid;
-      margin-top: -500px;
+      /* border: #bbb;
+      border-style: solid; */
+      margin-top: 100px;
+      /* padding: 1000px; */
    }
    
    .footerlogo {
