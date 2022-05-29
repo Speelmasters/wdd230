@@ -12,6 +12,6 @@ const today = new Date(Date.now());
   const daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
   const monthlist = [ "January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December" ];
   document.getElementById('date').textContent = (`${daylist[weekday]}, ${monthday} ${monthlist[month]} ${year}`);
-if (day > 1) {
+if (weekday > 1) {
   document.getElementById("BannerID").style.display = "none"
 }
