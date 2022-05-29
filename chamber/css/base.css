@@ -132,6 +132,15 @@ header {
    height: 50px;
  }
 
+ .Banner {
+   background-color: #09AAB8;
+   color: black;
+   max-width: 900px;
+   margin: auto;
+   height: 30px;
+   text-align: center;
+ }
+
 footer {
    /* background-color: #045344; */
    display: grid;
