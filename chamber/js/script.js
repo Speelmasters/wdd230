@@ -11,3 +11,4 @@ const today = new Date();
   const monthlist = [ "January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December" ];
 
   document.querySelector('#date').textContent = (`${daylist[day]}, ${day} ${monthlist[month]} ${year}`);
+
