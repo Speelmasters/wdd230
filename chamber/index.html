@@ -17,7 +17,7 @@
 
       <div class="logo">
          <picture>
-            <img src="images/fotor-pexels-Kootenai-Logo.png" alt="Kootenai Chamber of Commerce logo">
+            <img src="images/fotor-pexels-Kootenai-Logo.webp" alt="Kootenai Chamber of Commerce logo">
          </picture>
          <div class="headings">
             <h1>Kootenai</h1>
@@ -47,9 +47,24 @@
       <div id="date"></div>
    </header>
    <main>
-      <section class="Hero"><img src="images/Coeur+d’Alene+Aerial.jpg" alt=""><button>Join the Chamber</button></section>
+       <section class="Hero">
+         <picture>
+            <source media="(min-width:768px)" srcset="images/wdd230-org_large.jpg">
+            <source media="(min-width:425px)" srcset="images/wdd230-org_medium.jpg">
+            <img src="images/wdd230-org_small.jpg" alt="Flowers">
+          </picture>
+         <button>Join the Chamber</button>
+      </section> <!-- <img src="images/Coeur+d’Alene+Aerial.jpg" alt=""> -->
       <section class="Event">Event</section>
-      <section class="Weather">Weather</section>
+      <section class="Weather">
+         <h2>Weather</h2>
+         <img src="images/cloudy.png" alt="Weather Image">
+         <h3><span id="temp">33</span>°C</h3>
+         <h4>Partly Cloudy</h4>
+         <hr>
+         <p>Wind Speed:    <span id="wind">2.5</span> km/h</p>
+         <p>wind Chill:   <span id="chill">N/A</span></p>
+      </section>
       <section class="NewsRelease">News Release</section>
       <section class="Join">Join</section>
       <section class="Spotlight">
@@ -63,7 +78,7 @@
       <div class="footerlogo">
          <div class="logo">
             <picture>
-               <img src="images/fotor-pexels-Kootenai-Logo.png" alt="Kootenai Chamber of Commerce logo">
+               <img src="images/fotor-pexels-Kootenai-Logo.webp" alt="Kootenai Chamber of Commerce logo">
             </picture>
             <div class="headings">
                <h1>Kootenai</h1>
@@ -84,5 +99,6 @@
    </footer>
 </body>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/windchill.js"></script>
 
 </html>
