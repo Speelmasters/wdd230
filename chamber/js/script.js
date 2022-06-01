@@ -17,7 +17,6 @@ if (weekday > 1) {
   }
 }
 
-
 function msToTime(s) {
   var ms = s % 1000;
   s = (s - ms) / 1000;
