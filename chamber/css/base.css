@@ -14,6 +14,9 @@ header {
 	max-width: 900px;
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
+   
+   background-color: #B6E3FC;
+   border-radius: 2px;
 }
 
 .logo {
@@ -148,8 +151,10 @@ footer {
    position: relative;
    bottom: 0;
    width: 100%;
-   margin-bottom: 10px;
+   /* margin-bottom: 10px; */
    border-top: 1px solid #bbb;
+   background-color: #B6E3FC;
+   border-radius: 2px;
 }
 
 .footerlogo {
@@ -331,3 +336,53 @@ section {
 .Spotlight3 {
    display: none;
 }
+
+/* Discover Divs */
+
+.discovercontainer {
+   display: grid;
+   margin: auto;
+   grid-column: 1/5;
+   
+}
+
+.discoverIMG img {
+   border-radius: 5px;
+   width: 100%;
+}
+
+.discoverIMG figcaption {
+   font-size: larger;
+}
+
+
+.discoverIMG {
+   padding: 5px;
+   /* padding-bottom: 50px; */
+}
+
+.img1 {
+   grid-column: 1/2;
+   grid-row: 1/2;
+}
+
+.img2 {
+   grid-column: 1/2;
+   grid-row: 2/3;
+}
+
+.img3 {
+   grid-column: 1/2;
+   grid-row: 3/4;
+}
+
+.img4 {
+   grid-column: 1/2;
+   grid-row: 4/5;
+}
+
+.img5 {
+   grid-column: 1/2;
+   grid-row: 5/6;
+}
+
