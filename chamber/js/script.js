@@ -1,6 +1,4 @@
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
+document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
 document.querySelector('#©').textContent = new Date(Date.now()).getFullYear();
 
 const today = new Date(Date.now());
