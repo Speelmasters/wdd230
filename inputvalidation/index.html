@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <form action="" name="form1" onsubmit="checkAge()" method="get">
+
+      <section>
+         <h2>Input</h2>
+         <label for="age"></label>
+         Input name: <input type="text" name="name" value="name" required><br>
+         Input age: <input type="number" name="age" id="age" value=""><br>
+         Input phone number: <input type="tel" pattern="[0-9]{7}" value=""><br>
+         Input username 4-8 length: <input type="text" pattern="[a-z]{4,8}" value=""><br>
+      </section>
+      <section>
+         <p>limit options:</p>
+         <input list="fruits" name="fruit">
+         <datalist id="fruits">
+            <option value="Mango">
+            <option value="Apple">
+            <option value="Banana">
+            <option value="Pomegranate">
+            <option value="Pineapple">
+         </datalist>
+      </section>
+      <button type="submit">Submit</button>
+   </form>
+   <hr>
+   <form name="form2" onsubmit="validateForm()" method="get">
+      Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+   </form>
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

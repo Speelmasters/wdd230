@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <form action="thankyou.html">
+
+      <section>
+
+         <!-- input and label -->
+         <h2>Input</h2>
+         <label for="age"></label>
+         Input name: <input type="text" name="name" value="" required><br>
+         Input age: <input type="number" name="age" id="age" value=""><br>
+      </section>
+      <section>
+         <h2>Datalist</h2>
+         <input list="fruits" name="fruit">
+         <datalist id="fruits">
+            <option value="Mango">
+            <option value="Apple">
+            <option value="Banana">
+            <option value="Pomegranate">
+            <option value="Pineapple">
+         </datalist>
+      </section>
+      <section>
+         <h2>Fieldset</h2>
+         <fieldset>
+            <legend>Info:</legend>
+            Name: <input type="text"><br>
+            Phone: <input type="number"><br>
+            Age: <input type="text">
+         </fieldset>
+      </section>
+      <section>
+         <h2>optgroup</h2>
+         <optgroup label="Cooked">
+            <legend>Sides</legend>
+            <option value="Potatoes">Potatoes</option>
+            <option value="Fries">Fries</option>
+         </optgroup>
+         <optgroup label="Raw">
+            <option value="Apples">Apples</option>
+            <option value="Carrots">Carrots</option>
+         </optgroup>
+      </section>
+      <section>
+         <h2>Select</h2>
+         <select>
+            <option value="Bikes"> Bikes </option>
+            <option value="Cars"> Cars </option>
+            <option value="Buses"> Buses </option>
+         </select>
+         <section>
+            <h2>Textarea</h2>
+            <p>Put your Comment:
+               <textarea cols="30" rows="4">Put here...</textarea>
+            </p>
+         </section>
+         <button type="submit">Submit</button>
+   </form>
+
+   <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+   </form>
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
