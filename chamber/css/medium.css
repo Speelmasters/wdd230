@@ -1,17 +1,5 @@
 @media (min-width: 30em) {
-	/* nav {
-		flex-direction: row;
-	}
 	
-	nav a {
-		font-size: 1.1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	main picture {
-		display: block;
-	} */
 
    main {
       display: grid;
@@ -163,4 +151,14 @@
    grid-row: 3/4;
 }
 
+.contact-form{
+   left: 3%;
+   margin-right: 3%;
+   width: 88%;
+   margin-left: 0;
+   padding-left: 3%;
+   padding-right: 3%;
 }
+
+}
+
