@@ -1,0 +1,82 @@
+[
+ {
+   "name": "Wolf Lodge Steakhouse",
+   "address": "11741 E. Frontage Rd. Coeur d'Alene ID 83814",
+   "phone": "(208) 664-6665",
+   "url": "http://www.wolflodgecda.com/",
+   "image": "images/business/cropped-logo-wolflodgedca.png",
+   "level": "Silver"
+ },
+ {
+   "name": "Mulligan's",
+   "address": "506 W. Appleway Ave. Coeur d'Alene ID 83814",
+   "phone": "(208) 765-3200",
+   "url": "http://www.cdainn.com/",
+   "image": "images/business/Mulligans_sports_bar_logo.jpg",
+   "level": "Bronze"
+ },
+ {
+   "name": "MacKenzie River Pizza, Co.",
+   "address": "405 W. Canfield Ave.Coeur d'Alene ID 83815",
+   "phone": "(208) 772-5111",
+   "url": "http://www.mackenzieriverpizza.com/",
+   "image": "images/business/mackenzieriver.jpg",
+   "level": "Bronze"
+ },
+ {
+   "name": "The Salvation Army Kroc Center",
+   "address": "1765 W. Golf Course Rd.Coeur d'Alene ID 83815",
+   "phone": "(208) 667-1865",
+   "url": "http://www.kroccda.org/",
+   "image": "images/business/MemLogoSearch_Kroc Center Logo.jpg",
+   "level": "Silver"
+ },
+ {
+   "name": "Coeur d'Alene Casino/Resort Hotel",
+   "address": "37914 S. Nukwalqw St.Worley ID 83876",
+   "phone": "(800) 523-2464",
+   "url": "http://www.cdacasino.com/",
+   "image": "images/business/CDACasinoHotelLogoVert.jpg",
+   "level": "Gold"
+ },
+ {
+   "name": "Quality Inn & Suites",
+   "address": "280 W. Appleway Ave.Coeur d'Alene ID 83814",
+   "phone": "(208) 765-5500",
+   "url": "http://www.qualityinncoeurdalene.com/",
+   "image": "images/business/qualityinn.jpg",
+   "level": "Bronze"
+ },
+ {
+   "name": "Escape Game Coeur d'Alene",
+   "address": "202 E. Sherman Ave. Coeur d'Alene ID 83814",
+   "phone": "(208) 770-0973",
+   "url": "http://www.escapegamecda.com/",
+   "image": "images/business/escape-room.jpg",
+   "level": "Bronze"
+ },
+ {
+   "name": "Triple Play Family Fun Park",
+   "address": "175 W. Orchard Ave.Hayden ID 83835",
+   "phone": "(208) 762-7529",
+   "url": "http://www.3play.com/",
+   "image": "images/business/Waterpark.jpg",
+   "level": "Silver"
+ },
+ {
+   "name": "Silverwood Theme Park & Boulder Beach Water Park",
+   "address": "27843 N. Hwy 95Athol ID 83801",
+   "phone": "(208) 683-3400",
+   "url": "http://www.silverwoodthemepark.com/",
+   "image": "images/business/Silverwood_3DLogo_2016.jpg",
+   "level": "Gold"
+ },
+ {
+   "name": "Museum of North Idaho",
+   "address": "115 Northwest Blvd.Coeur d'Alene ID 83814",
+   "phone": "(208) 664-3448",
+   "url": "http://www.museumni.org/",
+   "image": "images/business/moni.jpg",
+   "level": "Nonprofit"
+ }
+]
