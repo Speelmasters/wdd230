@@ -518,6 +518,12 @@ section {
    margin: auto;
    max-height: 75px;
 }
+
+.items .grid {
+   display: block;
+   column-gap: 5px;
+   row-gap: 5px;
+}
 /* Business list End */
 
 
