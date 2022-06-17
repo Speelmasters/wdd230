@@ -498,6 +498,7 @@ section {
  
  .slider.round {
    border-radius: 34px;
+   margin: auto;
  }
  
  .slider.round:before {
@@ -505,6 +506,41 @@ section {
  }
 
 
- #items .list section{
-
+/* Business list start */
+.items .list section{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   column-gap: 5px;
  }
+
+.items .list section img{
+   width: 100px;
+   margin: auto;
+   max-height: 75px;
+}
+/* Business list End */
+
+
+.items .grid section{
+   display: grid;
+   column-gap: 5px;
+   justify-content: center;
+   text-align: center;
+}
+
+.items .grid {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   column-gap: 5px;
+   row-gap: 5px;
+}
+
+
+.items {
+   max-width: 100%;
+   /* margin: auto; */
+}
+
+.business {
+   text-align: center;
+}

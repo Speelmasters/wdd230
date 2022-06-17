@@ -160,5 +160,31 @@
    padding-right: 3%;
 }
 
+.items .list section{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 5px;
+ }
+
+.address {
+   display: none;
+}
+
+.phone {
+   display: none;
+}
+
+.items {
+   max-width: 80%;
+   margin: auto;
+}
+
+.items .grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 5px;
+   row-gap: 5px;
+}
+
 }
 

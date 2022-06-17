@@ -173,4 +173,30 @@
    grid-row: 2/4;
 }
 
+.items .list section{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   column-gap: 5px;
+ }
+
+ .address {
+   display: block;
+}
+
+.phone {
+   display: block;
+}
+
+.items {
+   max-width: 70%;
+   margin: auto;
+}
+
+.items .grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 5px;
+   row-gap: 5px;
+}
+
 }
