@@ -17,7 +17,7 @@ else {
 }
 
 
-const url = 'http://api.openweathermap.org/data/2.5/forecast?zip=83814&units=imperial&appid=7f56b786e320679f5e272d9cac5919bb';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?zip=83814&units=imperial&appid=7f56b786e320679f5e272d9cac5919bb';
 
 async function apiFetch() {
    try {
