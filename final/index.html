@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+   <header>
+      <div class="title">
+
+      </div>
+      <div class="subtitle">
+
+      </div>
+      <nav>
+         <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#temple">Temple</a></li>
+         <li><a href="#reservation">Reservation</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#reception">Reception</a></li>
+         <li><a href="#missionary">Missionary</a></li>
+      </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="home section even" id="home">
+
+      </div>
+      <div class="temple section odd" id="temple">
+         <h1>Temples</h1>
+         <div class="cards">
+          </div>
+      </div>
+      <div class="reservation section even" id="reservation">
+         <h1>Reservations</h1>
+
+         <div class="testbox">
+            <form action="/">
+               <div class="banner">
+                  <h1>Make a Reservation</h1>
+               </div>
+               <br />
+               <p>Make a reservation at one of our locations. Enter your information below and one of our associates
+                  will contact you with the best lodgings in the area.</p>
+               <br />
+               <div class="colums">
+                  <div class="item">
+                     <label for="name">Name<span>*</span></label>
+                     <input id="name" type="text" name="name" required />
+                  </div>
+                  <div class="item">
+                     <label for="eaddress">Email Address<span>*</span></label>
+                     <input id="eaddress" type="text" name="eaddress" required />
+                  </div>
+                  <div class="item">
+                     <label for="phone">Phone<span>*</span></label>
+                     <input id="phone" type="tel" name="phone" required />
+                  </div>
+                  <div class="item">
+                     <label for="State">State/Country<span>*</span></label>
+                     <input id="State" type="text" name="State" required />
+                  </div>
+                  <div class="item">
+                     <label for="Location">Location<span>*</span></label>
+                     <input id="Location" type="text" name="Location" required />
+                  </div>
+                  <div class="item">
+                     <label for="Date">Date<span>*</span></label>
+                     <input id="Date" type="date" name="Date" required />
+                  </div>
+                  <div class="item">
+                     <label for="nor">Number of Rooms<span>*</span></label>
+                     <input id="nor" type="number" name="nor" required />
+                  </div>
+               </div>
+
+               <div class="item">
+                  <p>Room Type</p>
+                  <select>
+                     <option selected value="" disabled selected aria-required="true"></option>
+                     <option value="k">Single King</option>
+                     <option value="sq">Single Queen</option>
+                     <option value="dq">Double Queen</option>
+                  </select>
+               </div>
+
+               <div class="item">
+                  <label for="visit">Special Requirements</label>
+                  <textarea id="visit" rows="3"></textarea>
+               </div>
+
+               <div class="btn-block">
+                  <button type="submit" href="/">Submit</button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div class="services section odd" id="services">
+         <h1>Services</h1>
+
+      </div>
+      <div class="reception section even" id="reception">
+         <h1>Reception</h1>
+
+      </div>
+      <div class="missionary section odd" id="missionary">
+         <h1>Full-Time Temple Missionary</h1>
+
+      </div>
+   </main>
+   <footer>
+
+   </footer>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,56 @@
+[
+ {
+   "name": "Boise Idaho",
+   "image": "https://assets.ldscdn.org/a9/ea/a9ea78d508adc7196d9fadec18a933628ae69761/boise_idaho_temple_sunshine.jpeg",
+   "address": "1211 S Cole Rd, Boise ID 83709-1871",
+   "phone": "(1) 208-322-4422",
+   "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+   "history": ["31 March 1982 Announced", "18 December 1982 Groundbreaking", "25 May 1984 Dedicated", "14 February 1987 Rededicated", "18 November 2012 Rededicated"],
+   "templeclosure": ["Saturday, 1 October 2022","Monday, 10 October 2022 - Monday, 24 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022 (Limited Operations)","Saturday, 1 April 2023","Monday, 1 May 2023 - Monday, 15 May 2023","Tuesday, 4 July 2023","Saturday, 30 September 2023","Monday, 9 October 2023 - Monday, 23 October 2023","Wednesday, 22 November 2023 (Limited Operations)","Thursday, 23 November 2023"]
+ },
+ {
+   "name": "Columbia South Carolina",
+   "image": "https://assets.ldscdn.org/28/ee/28ee5b55c48230a3a3e45c031062748c193a95f3/columbia_temple_lds.jpeg",
+   "address": "2905 Trotter Rd, Hopkins SC 29061-9573",
+   "phone": "(1) 803-647-9472",
+   "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+   "history": ["11 September 1998 Announced","5 December 1998 Groundbreaking","16 October 1999 Dedicated"],
+   "templeclosure": ["Monday, 11 July 2022 - Monday, 25 July 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022","Monday, 9 January 2023 - Monday, 23 January 2023"]
+ },
+ {
+   "name": "Dallas Texas",
+   "image": "https://assets.ldscdn.org/33/98/3398104d8062323fd63fd4b7c39f3d54f15b04a7/dallas_texas_temple.jpeg",
+   "address": "6363 Willow Ln, Dallas TX 75230-2227",
+   "phone": "(1) 972-991-1273",
+   "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+   "history": ["1 April 1981 Announced","22 January 1983 Groundbreaking","19 October 1984 Dedicated","5 March 1989 Rededicated"],
+   "templeclosure": ["Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022","Saturday, 1 April 2023","Monday, 24 April 2023 - Monday, 8 May 2023","Saturday, 7 October 2023","Monday, 23 October 2023 - Monday, 6 November 2023","Wednesday, 22 November 2023 (Limited Operations)","Thursday, 23 November 2023"]
+ },
+ {
+   "name": "Hamilton New Zealand",
+   "image": "https://assets.ldscdn.org/d4/9d/d49d6e06e5fd06192264d9a62b9840a848bd509e/hamilton_new_zealand_lds_temple.jpg",
+   "address": "509 Tuhikaramea Rd, Temple View\nHamilton 3218, New Zealand,",
+   "phone": "N/A",
+   "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+   "history": ["17 February 1955 Announced","21 December 1955 Groundbreaking","20 April 1958 Dedicated"],
+   "templeclosure": ["Saturday, 24 December 2022 - Monday, 26 December 2022","Saturday, 31 December 2022 - Monday, 2 January 2023","Monday, 6 February 2023","Monday, 20 February 2023 - Monday, 6 March 2023","Friday, 7 April 2023 (Limited Operations)","Monday, 10 April 2023","Tuesday, 25 April 2023 (Limited Operations)","Monday, 5 June 2023","Monday, 21 August 2023 - Monday, 4 September 2023","Monday, 23 October 2023","Monday, 25 December 2023 - Tuesday, 26 December 2023","Monday, 1 January 2024 - Tuesday, 2 January 2024"]
+ },
+ {
+   "name": "Kona Hawaii",
+   "image": "https://assets.ldscdn.org/7d/7d/7d7db400e1c21e513fcf7ad9cb4c52ba53cb41b5/kona_temple_lds.png",
+   "address": "75-230 Kalani St, Kailua-Kona HI 96740-1833",
+   "phone": "(1) 808-331-8504",
+   "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+   "history": ["7 May 1998 Announced","13 March 1999 Groundbreaking","23 January 2000 Dedicated"],
+   "templeclosure": ["Saturday, 1 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022","Thursday, 24 November 2022","Friday, 23 December 2022","Saturday, 24 December 2022","Friday, 30 December 2022","Saturday, 31 December 2022","Saturday, 1 April 2023","Monday, 3 April 2023 - Monday, 17 April 2023","Tuesday, 4 July 2023","Monday, 2 October 2023 - Monday, 16 October 2023","Wednesday, 22 November 2023","Thursday, 23 November 2023","Saturday, 23 December 2023","Saturday, 30 December 2023"]
+ },
+ {
+   "name": "Logan Utah",
+   "image": "https://assets.ldscdn.org/64/ce/64ce029cb2372528f8e3ea9f2b980873f38d5d92/logan_temple_lds.jpeg",
+   "address": "175 N 300 E, Logan UT 84321-4720",
+   "phone": "(1) 435-752-3611",
+   "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+   "history": ["6 October 1876 Announced","18 May 1877 Groundbreaking","17 May 1884 Dedicated","13 March 1979 Rededicated"],
+   "templeclosure": ["Saturday, 1 October 2022","Monday, 3 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022 (Limited Operations)","Monday, 13 February 2023 - Monday, 27 February 2023","Saturday, 1 April 2023","Tuesday, 4 July 2023","Saturday, 30 September 2023","Monday, 2 October 2023 - Monday, 16 October 2023","Wednesday, 22 November 2023 (Limited Operations)","Thursday, 23 November 2023","Saturday, 23 December 2023"]
+ }
+]

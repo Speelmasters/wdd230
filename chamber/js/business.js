@@ -2,18 +2,16 @@
 const items = document.querySelector('.items div');
 
 var json;
-var ready = false;
 
 async function printJSON() {
    const response = await fetch("business.json");
    json = await response.json();
    console.log(json);
-   ready = true;
+
    for (var i = 0; i < json.length; i++) {
       createItems(json[i]);
    }
 }
-
 
 printJSON();
 
