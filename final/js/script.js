@@ -12,7 +12,6 @@ async function printJSON() {
 
 printJSON();
 
-var checkbox = document.getElementById("slidercheck");
 
 
 
@@ -75,7 +74,7 @@ function createItems(item) {
       localStorage.setItem(item.name, "false");
    }
    else {
-      button.textContent = "Like"
+      button.textContent = "Dislike"
    }
 
    temple.setAttribute('src', item.image);
@@ -118,3 +117,21 @@ function createItems(item) {
       console.log(item.name)
    });
 }
+
+
+function initMap() {
+   // The location of Uluru
+   const uluru = { lat: 38.983466, lng: -77.096854 };
+   // The map, centered at Uluru
+   const map = new google.maps.Map(document.getElementById("map"), {
+     zoom: 4,
+     center: uluru,
+   });
+   // The marker, positioned at Uluru
+   const marker = new google.maps.Marker({
+     position: uluru,
+     map: map,
+   });
+ }
+ 
+ window.initMap = initMap;

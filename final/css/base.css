@@ -21,6 +21,10 @@ p {
    line-height: 22px;
 }
 
+header, footer {
+   background-color: #FFD6BA;
+}
+
 h1 {
    margin: 200px;
 }
@@ -59,6 +63,8 @@ h1 {
    font-weight: 200;
    margin-top: 10px;
    color: #565656;
+   display: flex;
+   justify-content: space-between;
 }
 
 nav {
@@ -87,7 +93,11 @@ nav a {
    color: #1ac;
 }
 
-
+footer {
+   bottom: 0;
+   min-height: 300px;
+   display: flexbox;
+}
 
 
 
@@ -362,3 +372,20 @@ button:hover {
 
 
 /* End Cards */
+
+
+.services {
+   display: flexbox;
+}
+
+.subsection {
+   margin: 50px;
+
+}
+
+#map {
+   height: 250px;
+   /* The height is 400 pixels */
+   width: 30%;
+   /* The width is the width of the web page */
+ }
