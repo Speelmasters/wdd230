@@ -96,7 +96,8 @@ nav a {
 footer {
    bottom: 0;
    min-height: 300px;
-   display: flexbox;
+   display: flex;
+   justify-content: space-between;
 }
 
 
@@ -375,12 +376,14 @@ button:hover {
 
 
 .services {
-   display: flexbox;
+   display: flex;
+   justify-content: space-around;
+   padding: 2.5%;
 }
 
 .subsection {
    margin: 50px;
-
+   
 }
 
 #map {
@@ -389,3 +392,14 @@ button:hover {
    width: 30%;
    /* The width is the width of the web page */
  }
+
+.ss, .amenities, .reception, .missionary {
+   border-radius: 5px;
+   background-color: #89B0AE;
+   
+   max-width: 400px;
+}
+
+.reception img {
+   max-width: 400px;
+}
