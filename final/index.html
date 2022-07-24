@@ -33,8 +33,21 @@
    </header>
    <main>
       <div class="home section even" id="home">
-
-
+         <img class="hero" src="images/lobby.jpg" alt="">
+         <div class="intro">
+            <h2>Temple Inn & Suites</h2>
+            <p>
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptate, doloribus nobis sit
+               distinctio ut molestiae, iste, alias officiis itaque cumque adipisci rerum provident aut voluptatem magni
+               quia quasi suscipit.
+            </p>
+         </div>
+         <div class="weather">
+            <h2>Daily Weather</h2>
+            <div class="days">
+               
+            </div>
+         </div>
       </div>
       <div class="temple section odd" id="temple">
          <h1>Temples</h1>
@@ -138,16 +151,43 @@
          <div class="reception subsection even" id="reception">
             <img src="images/pexels-terje-sollie-313707.jpg" alt="">
             <h1>Reception</h1>
-
+            <p>Our location is welcoming to all those who wish to be sealed together. We have a fantastic venue
+               overlooking the city and many services available to make the day easier for all. Some of those services
+               include:
+            </p>
+            <ul>
+               <li>Food Service</li>
+               <li>Setup/takedown</li>
+               <li>Wedding Singer</li>
+               <li>Designers</li>
+            </ul>
          </div>
          <div class="missionary subsection even" id="missionary">
             <h1>Full-Time Temple Missionary</h1>
-
+            <p>Contact us for more information and images about the suites offered at the hotel. </p>
+            <form action="/" class="missionform">
+               <div class="item">
+                  <label for="name">Name<span>*</span></label>
+                  <input id="name" type="text" name="name" required />
+               </div>
+               <div class="item">
+                  <label for="eaddress">Email Address<span>*</span></label>
+                  <input id="eaddress" type="text" name="eaddress" required />
+               </div>
+               <div class="item">
+                  <label for="visit">Comments</label>
+                  <textarea id="visit" rows="3"></textarea>
+               </div>
+               <div class="btn-block">
+                  <button type="submit" href="/">Submit</button>
+               </div>
+            </form>
          </div>
       </div>
    </main>
    <footer>
       <img src="images/tis.png" alt="">
+      <div class="modified" id="modified"></div>
       <h3>4847 Montgomery Ln #300, Bethesda, MD 20814 </h3>
       <!--The div element for the map -->
       <div id="map">
@@ -162,6 +202,7 @@
 </body>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/weather.js"></script>
+<script type="text/javascript" src="js/modified.js"></script>
 <script async
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrlETgk80dmtXeKqgQOWnm7kNaxyLsr8A&callback=initMap">
 </script>
